@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="Leberwurscht",
     author_email="leberwurscht@hoegners.de",
-    description="preprocess data passed to pcolormesh so that axes are aligned to the centers of the corresponding rectangles, not their borders.",
+    description="preprocess data passed to pcolormesh so that axes are aligned to the centers of the corresponding rectangles, not their borders",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://gitlab.com/leberwurscht/pcolormesh_preprocess",

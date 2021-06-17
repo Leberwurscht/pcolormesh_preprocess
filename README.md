@@ -10,7 +10,7 @@ from pcolormesh_preprocess import pcmp
 
 x = np.linspace(-1,1)
 y = np.linspace(-1,1)
-xv, yv = np.meshgrid(x, y, sparse=False, indexing='ij')
+xv, yv = np.meshgrid(x, y, sparse=True, indexing='ij')
 data = xv**2 + yv**2/4
 
 plt.pcolormesh(*pcmp(x,y,data))
@@ -27,7 +27,7 @@ from pcolormesh_preprocess import pcmp_xy as pcmp
 
 x = np.linspace(-1,1)
 y = np.linspace(-1,1)
-xv, yv = np.meshgrid(x, y, sparse=False, indexing='xy')
+xv, yv = np.meshgrid(x, y, sparse=True, indexing='xy')
 data = xv**2 + yv**2/4
 
 plt.pcolormesh(*pcmp(x,y,data))
